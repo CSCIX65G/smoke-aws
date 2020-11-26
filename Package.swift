@@ -19,7 +19,7 @@ import PackageDescription
 let package = Package(
     name: "smoke-aws",
     platforms: [
-        .macOS(.v10_15), .iOS(.v14)
+        .macOS(.v10_15), .iOS(.v13)
         ],
     products: [
         .library(
